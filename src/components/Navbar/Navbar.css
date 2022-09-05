@@ -34,12 +34,13 @@
         display: block;
         position: absolute;
         font-size: 30px;
-        color: #3C3B6E;
-        background-color: #fff;
+        color: #FFFF;
+        background-color: #3C3B6E;
         border: none;
         outline: none;
+        width: 0px;
         top: 15px;
-        right: 25px;
+        right: 85px;
 
     }
     .logo{
@@ -77,7 +78,7 @@
         font-size: 20px;
         padding: 0px 20px;
         margin: 0px 20px;
-        margin-top: -50px;
+        margin-top: -10px;
         margin-left: -30px;
     }
     .phone-menu-icon{
@@ -86,6 +87,11 @@
     .logo{
         width: 80px;
         margin-top: -10px;
+    }
+    .alt-logo{
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 20px;
     }
 }
 
