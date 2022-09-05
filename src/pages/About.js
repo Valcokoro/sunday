@@ -6,7 +6,7 @@ import AltNavbar from '../components/Navbar/AltNavbar';
 
 const About = () => {
     return (
-        <section className='about-nuliaa'>
+        <section className='about-sunday'>
             <AltNavbar/>
             <div className='p-statement'>
             <p className='statement'>

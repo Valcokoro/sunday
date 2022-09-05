@@ -1,8 +1,8 @@
 @media screen and (min-width: 300px){
-    .about-nuliaa{
+    .about-sunday{
         width: 100%;
         height: 350px;
-        margin-top: 30px;
+        margin-top: 5px;
     }
     .about-pics{
         width: 100%;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 480px){
    
-    .about-nuliaa{
+    .about-sunday{
         width: 100%;
         height: 350px;
         margin-top: 30px;
@@ -58,7 +58,7 @@
 
 
 @media screen and (min-width: 800px){
-    .about-nuliaa{
+    .about-sunday{
         width: 100%;
         height: 350px;
         margin-top: 30px;
