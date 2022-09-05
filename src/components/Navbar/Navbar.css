@@ -34,11 +34,11 @@
         display: block;
         position: absolute;
         font-size: 30px;
-        color: #FFFF;
-        background-color: #3C3B6E;
+        color: #3C3B6E;
+        background-color: #FFFF;
         border: none;
         outline: none;
-        width: 0px;
+        width: 50px;
         top: 15px;
         right: 85px;
 
@@ -51,7 +51,7 @@
     .alt-logo{
         width: 50px;
         margin-left: 30px;
-        margin-top: 20px;
+        margin-top: -15px;
     }
 }
 
