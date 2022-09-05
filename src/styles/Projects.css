@@ -1,0 +1,634 @@
+@media screen and (min-width: 300px){
+    .projects-page{
+        width: 100%;
+        height: 6550px;
+        background-color: #3C3B6E;
+    }
+    .projects-head{
+        text-decoration: underline;
+        color: #FFFF;
+        text-align: center;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 5%;
+        margin-top: 60px;
+    }
+    .flex-item{
+        width: 100%;
+        height: 4350px;
+        margin: 10px;
+        text-align: center;
+        background-color: #FFFF;
+        animation: fade_in 1.4s ease-in;
+    }
+    .item{
+        width: 100%;
+        height: 1150px;
+        margin-top: 10px;
+        text-align: center;
+        background-color: #FFFF;
+        animation: fade_in 1.4s ease-in;
+    }
+    .python-item{
+        width: 100%;
+        height: 2250px;
+        margin-top: 10px;
+        text-align: center;
+        background-color: #FFFF;
+        animation: fade_in 1.4s ease-in;
+    }
+    .bi-project{
+        color: #B22234;
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bi-project1{
+        color: #3C3B6E;
+        padding: 10px;
+        margin-top: -30px;
+    }
+    .pbi-pics1{
+        width: 200px;
+    }
+    .pbi-pics2{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .bi-description{
+        width: 50%;
+        font-size: 10px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-project{
+        color: #B22234;
+        padding: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .r-project1{
+        color: #3C3B6E;
+        padding: 10px;
+        margin-top: -30px;
+    }
+    .cancer-diagnosis{
+        color: #B22234;
+    }
+    .r-description1{
+        width: 50%;
+        font-size: 10px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-result1{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 40px;
+    }
+    .cancer-data{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: -5px;
+    }
+    .r-pics1{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .cancer-data_boxplot{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .r-pics2{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .cancer-data_histogram{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .r-pics3{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .set-seed{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .r-pics4{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .cd_test{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .r-pics5{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .cancer-data_confusionMatrix{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 10px;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .r-pics6{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .r-project2{
+        color: #3C3B6E;
+        padding: 10px;
+        margin-top: -30px;
+    }
+    .heart-disease{
+        color: #B22234;
+    }
+    .r-description2{
+        width: 50%;
+        font-size: 10px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .hd{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 13px;
+        margin-top: 30px; 
+    }
+    .r-pics7{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .hd_train{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 13px;
+        margin-top: 30px; 
+    }
+    .r-pics8{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .hd_model{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 30px; 
+    }
+    .r-pics9{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .rpart-plot{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 30px; 
+    }
+    .r-pics10{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .rpart-rules{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 50px; 
+    }
+    .r-pics11{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .hd_model2{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 50px; 
+    }
+    .r-pics12{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .rpart-plot2{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 50px; 
+    }
+    .r-pics13{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .hd_pred{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 50px; 
+    }
+    .r-pics14{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .plotcp{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 50px; 
+    }
+    .r-pics15{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .click-btn{
+        margin-left: 130px;
+        color: #B22234;
+        font-style: italic;
+    }
+    .pbi-btn{
+        margin-left: 80px;
+        margin-top: 20px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    .rstudio-btn{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    .python-btn{
+        margin-left: 85px;
+        margin-top: 20px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    .tableau-btn{
+        margin-left: 30px;
+        margin-top:  10px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    
+    
+}
+
+
+
+@media screen and (min-width: 480px){
+    .projects-page{
+        height: 10550px;
+        margin-top: 20px;
+    }
+    .flex-item{
+        height: 6550px;
+    }
+    .python-item{
+        height: 3250px;
+    }
+    .item{
+        width: 100%;
+        height: 1750px;
+        margin: 10px;
+        text-align: center;
+        background-color: #FFFF;
+    }
+    .pbi-pics1{
+        width: 400px;
+    }
+    .pbi-pics2{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .bi-description{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-description1{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-result1{
+        margin-left: 30px;
+    }
+    .cancer-data{
+        margin-left: 30px;
+    }
+    .r-pics1{
+        width: 400px;
+    }
+    .cancer-data_boxplot{
+        margin-left: 30px;
+    }
+    .r-pics2{
+        width: 400px;
+    }
+    .cancer-data_histogram{
+        margin-left: 20px;
+    }
+    .r-pics3{
+        width: 400px;
+    }
+    .r-pics4{
+        width: 400px;
+    }
+    .r-pics5{
+        width: 400px;
+    }
+    .cancer-data_confusionMatrix{
+        margin-left: 20px;
+    }
+    .r-pics6{
+        width: 400px;
+    }
+    .r-description2{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-pics7{
+        width: 400px;
+        margin-top: 5px;
+    }
+    .r-pics8{
+        width: 400px;
+    }
+    .r-pics9{
+        width: 400px;
+    }
+    .r-pics10{
+        width: 400px;
+    }
+    .r-pics11{
+        width: 400px;
+    }
+    .r-pics12{
+        width: 400px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .r-pics13{
+        width: 400px;
+    }
+    .r-pics14{
+        width: 400px;
+    }
+    .r-pics15{
+        width: 350px;
+    }
+    .click-btn{
+        margin-left: 200px;
+    }
+    .pbi-btn{
+        margin-left: 120px;
+    }
+    .rstudio-btn{
+        margin-left: 30px;
+    }
+    .python-btn{
+        margin-left: 120px;
+    }
+    .tableau-btn{
+        margin-left: 45px;
+    }
+     
+}
+
+
+
+@media screen and (min-width: 800px){
+    .flex-item{
+        width: 70%;
+        height: 8550px;
+        margin-left: 170px;
+    }
+    .item{
+        width: 70%;
+        height: 1650px;
+        margin-left: 170px;
+        text-align: center;
+        background-color: #FFFF;
+    }
+    .python-item{
+        width: 70%;
+        height: 5350px;
+        margin-left: 170px;
+        text-align: center;
+    }
+    .pbi-pics1{
+        width: 700px;
+    }
+    .pbi-pics2{
+        width: 700px;
+        margin-top: 20px;
+    }
+    .bi-description{
+        text-align: justify;
+    }
+    .r-description1{
+        text-align: justify;
+    }
+    .r-result1{
+        margin-left: 60px;
+    }
+    .cancer-data{
+        margin-left: 60px;
+    }
+    .r-pics1{
+        width: 700px;
+    }
+    .cancer-data_boxplot{
+        margin-left: 75px;
+    }
+    .r-pics2{
+        width: 700px;
+    }
+    .cancer-data_histogram{
+        margin-left: 70px;
+    }
+    .r-pics3{
+        width: 700px;
+    }
+    .set-seed{
+        margin-left: 60px;
+    }
+    .r-pics4{
+        width: 700px;
+    }
+    .cd_test{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .r-pics5{
+        width: 700px;
+    }
+    .cancer-data_confusionMatrix{
+        margin-left: 60px;
+    }
+    .r-pics6{
+        width: 700px;
+    }
+    .r-description2{
+        text-align: justify;
+    }
+    .hd{
+        margin-left: 60px;
+    }
+    .r-pics7{
+        width: 700px;
+    }
+    .hd_train{
+        margin-left: 60px;
+    }
+    .r-pics8{
+        width: 700px;
+    }
+    .hd_model{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics9{
+        width: 800px;
+    }
+    .rpart-plot{
+        margin-left: 60px;
+        font-size: 15px; 
+    }
+    .r-pics10{
+        width: 800px;
+    }
+    .rpart-rules{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics11{
+        width: 800px;
+    }
+    .hd_model2{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics12{
+        width: 800px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .rpart-plot2{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics13{
+        width: 800px;
+    }
+    .hd_pred{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics14{
+        width: 800px;
+    }
+    .plotcp{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics15{
+        width: 800px;
+    }
+    .pbi-btn{
+        margin-left: 420px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .rstudio-btn{
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .python-btn{
+        margin-left: 420px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .tableau-btn{
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .click-btn{
+        margin-left: 570px;
+    }
+    
+}
+
+
+
+
+@keyframes fade_in{
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
+}
+
+
+
+

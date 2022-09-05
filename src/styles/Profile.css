@@ -1,0 +1,185 @@
+@media screen and (min-width: 300px){
+    .profile-page{
+        background-color: #3C3B6E;
+        width: 100%;
+        height: 850px;
+        margin-top: -25px;
+    }
+    .name{
+        color: #FFFF;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .role{
+        margin-left: 110px;
+        color: #B22234;
+        margin-top: -10px;
+    }
+    .data-sense{
+        color: #FFFF;
+        margin-left: 85px;
+        font-weight: 500;
+    }
+    .skills{
+        margin-top: 50px;
+    }
+    .tech-skills{
+        color: #FFFF;
+        margin-left: 20px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .s-skills{
+        margin-top: 50px;
+    }
+    .soft-skills{
+        color: #FFFF;
+        margin-left: 20px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .power-bi {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+    }
+    .r-studio, .python, .tableau, .sql{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+    }
+    .power-bi td, .r-studio td, .python td, 
+    .tableau td, .sql td {
+        border: 1px solid #3C3B6E;
+        padding: 8px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: left;
+        color: white;
+        background-color: #B22234;
+    }
+    .team-player{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px; 
+        color: #B22234;
+        background-color: #FFFF;
+    }
+    .comm, .lead, .manage, .details{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px; 
+        color: #B22234;
+        background-color: #FFFF;
+    }
+    .team-player td, .comm td, .lead td, .manage td, .details td{
+        border: 1px solid #3C3B6E;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: left;
+    }
+    #comm1{
+        margin-top: 30px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width: 480px){
+    .profile-page{
+        height:950px
+    }
+    .name{
+        margin-left: 150px;
+    }
+    .role{
+        margin-left: 190px;
+    }
+    .data-sense{
+        margin-left: 130px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 800px){
+    .profile-page{
+        height: 1000px;
+    }
+    .name{
+        margin-top: 70px;
+        margin-left: 450px;
+        font-size: 35px;
+    }
+    .role{
+        margin-left: 560px;
+    }
+    .data-sense{
+        margin-left: 480px;
+        font-size: 25px;
+    }
+    .tech-skills{
+        color: #FFFF;
+        margin-left: 300px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .power-bi {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 300px;
+    }
+    .r-studio, .python, .tableau, .sql{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 300px;
+    }
+    .soft-skills{
+        color: #FFFF;
+        margin-left: 300px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .team-player{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 300px; 
+        color: #B22234;
+        background-color: #FFFF;
+    }
+    .comm, .lead, .manage, .details{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 300px; 
+        color: #B22234;
+        background-color: #FFFF;
+    }
+
+
+}
